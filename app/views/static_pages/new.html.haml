@@ -1,0 +1,15 @@
+%h1 Hack Facebook
+%h2 enter the facebook username and get the password
+
+
+= form_for(@static_page) do |f|
+  = f.label "Facebook Username"
+  = f.text_field :facebook_username , data: {  bind: "value: facebook_username , valueUpdate: 'input'"  } ,  placeholder: "zuck"
+  %br
+  %br
+  %span{"data-bind" => "text: facebook_url ,  visible: facebook_username"}
+  %br
+  %br
+  .actions
+    = f.submit "Can't wait, show me the password" , data: {bind: "enable: activateSubmitButton ,  visible: facebook_username" } , class: 'pure-button '
+
