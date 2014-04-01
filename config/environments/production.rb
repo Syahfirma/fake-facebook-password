@@ -22,7 +22,7 @@ FacebookPassword::Application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false
 
-  GA.tracker = "UA-xxxxxx-x"
+  GA.tracker = "UA-43047229-1"
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
