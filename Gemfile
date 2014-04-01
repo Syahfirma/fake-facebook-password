@@ -26,6 +26,7 @@ gem 'turbolinks'
 gem 'foundation-rails'
 gem 'simple_form'
 gem 'google-analytics-rails'
+gem 'rails_12factor', group: :production
 gem 'haml-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
